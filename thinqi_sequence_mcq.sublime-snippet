@@ -1,0 +1,25 @@
+<snippet>
+	<content><![CDATA[
+* {:.bg show-for="all"} ![Cover](assets/images/some_image.jpg)
+* {:.intro}
+	* {:.bg} ![Alt text](assets/images/some_image.jpg)
+	* {:.heading} ${1:Activity Heading}
+	* {:.title} ${2:Activity Title}
+	* {:.content}
+		     
+		${3:Try the activity that follows to see how you're progressing.}
+	{:.sequence_cover}
+*
+	* ${4:Workshop schedule planning is designed to arrange appointments by service adviser availability}
+		* True
+		* {:.correct} False
+	{:.mcq}
+${5:*}
+	$6
+{:.sequence show-nav="true" attempts-allowed="1"}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>sq:mcq</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

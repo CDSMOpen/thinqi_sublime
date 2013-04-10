@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+* ${1:MCQ Question}
+	* ${2:True}
+	* {:.correct} ${3:False}
+	${4:* More Options Here?}
+{:.mcq}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>mcq</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
