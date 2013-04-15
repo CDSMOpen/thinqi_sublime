@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+* {:.bg show-for="all"} ![Cover](assets/images/some_image.jpg)
+* {:.intro}
+	* {:.bg} ![Alt text](assets/images/some_image.jpg)
+	* {:.heading} ${1:Activity Heading}
+	* {:.title} ${2:Activity Title}
+	* {:.content}
+		${3:Introductory paragraph goes here}
+	{:.sequence_cover}
+*
+	${4:More Content Here}
+{:.sequence show-nav="true"}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>tq:sq</tabTrigger>
+	<description>Thinqi: Sequence</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

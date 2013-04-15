@@ -3,7 +3,8 @@
 * {:.correct} ${1:The correct answer}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>mcq:correct</tabTrigger>
+	<tabTrigger>tq:mcq:correct</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.python</scope> -->
+	<description>Thinqi: MCQ correct item</description>
 </snippet>

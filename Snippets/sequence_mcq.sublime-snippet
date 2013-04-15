@@ -19,7 +19,8 @@ ${5:*}
 {:.sequence show-nav="true" attempts-allowed="1"}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>sq:mcq</tabTrigger>
+	<tabTrigger>tq:sq:mcq</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.python</scope> -->
+	<description>Thinqi: Sequence with MCQ</description>
 </snippet>

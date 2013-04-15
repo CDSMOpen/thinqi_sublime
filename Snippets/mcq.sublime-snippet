@@ -1,13 +1,13 @@
 <snippet>
 	<content><![CDATA[
-* ${1:MCQ Question}
-	* ${2:True}
-	* {:.correct} ${3:False}
-	${4:* More Options Here?}
+* ${1:What's it all about?}
+	* ${2:Bertie}
+	* {:.correct} ${3:Alphie}
 {:.mcq}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>mcq</tabTrigger>
+	<tabTrigger>tq:mcq</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<!-- <scope>source.python</scope> -->
+<!-- 	<scope>source.markdown</scope>-->
+	<description>Thinqi: Multiple Choice Question</description>
 </snippet>
